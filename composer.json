@@ -1,0 +1,26 @@
+{
+    "name": "mattketmo/uuid-2x-bridge",
+    "description": "Allow to use ramsey/uuid:3.x even if one of your dependencies requires version 2.x",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matthieu Moquet",
+            "email": "matthieu@moquet.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Rhumsaa\\Uuid\\": "src"
+        }
+    },
+    "require": {
+        "ramsey/uuid": "^3.0"
+    },
+    "provide": {
+        "ramsey/uuid": "^3.0"
+    },
+    "replace": {
+        "ramsey/uuid": "^2.0",
+        "rhumsaa/uuid": "^2.0"
+    }
+}
