@@ -22,5 +22,8 @@
     "replace": {
         "ramsey/uuid": "^2.0",
         "rhumsaa/uuid": "^2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.3"
     }
 }
